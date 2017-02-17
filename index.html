@@ -1,23 +1,25 @@
-c<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
   <title>Modular Nav</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <div>
-      <h1>Solar System</h1>
+  <header class="grid">
+    <div class="unit xs-1">
+      <h1 class="push-1-2 pad-t">Solar System</h1>
     </div>
-    <nav>
-      <ul>
-        <li>Planets</li>
-        <li>Moons</li>
-        <li>Exploration</li>
+    <nav class="unit xs-1">
+      <ul class="push-0 pad-b-1-4">
+        <li class="island-1-2">Planets</li>
+        <li class="island-1-2">Moons</li>
+        <li class="island-1-2">Exploration</li>
+      </ul>
     </nav>
   </header>
 </body>
-</html>   
+</html>
